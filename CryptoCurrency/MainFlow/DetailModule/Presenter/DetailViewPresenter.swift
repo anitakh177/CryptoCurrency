@@ -29,7 +29,7 @@ final class DetailViewPresenter: DetailViewOutput {
     // MARK:  - Open Methods
     
     func loadData() {
-        guard let name = coin?.data.name else { return }
+        guard let name = coin?.data.slug else { return }
         dataFetchService.fetchPricechange(for: name) { [weak self] (result) in
             guard let self = self else { return }
             switch result {

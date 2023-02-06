@@ -55,6 +55,7 @@
 		08911A322987997600CAF6DA /* PriceChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08911A312987997600CAF6DA /* PriceChange.swift */; };
 		08911A342987998400CAF6DA /* KeyMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08911A332987998400CAF6DA /* KeyMetricsModel.swift */; };
 		08911A362987999500CAF6DA /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08911A352987999500CAF6DA /* ChartViewModel.swift */; };
+		08CAB4B52991569E0058EC2F /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CAB4B42991569E0058EC2F /* ImageConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		08911A312987997600CAF6DA /* PriceChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChange.swift; sourceTree = "<group>"; };
 		08911A332987998400CAF6DA /* KeyMetricsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyMetricsModel.swift; sourceTree = "<group>"; };
 		08911A352987999500CAF6DA /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
+		08CAB4B42991569E0058EC2F /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				089119C5298793CE00CAF6DA /* Constuctors */,
+				08CAB4B42991569E0058EC2F /* ImageConstants.swift */,
 				089119CC2987942700CAF6DA /* CoinIcons.swift */,
 				089119CE2987943700CAF6DA /* ModuleTransitionable.swift */,
 				089119D02987944C00CAF6DA /* ItemViewInset.swift */,
@@ -526,6 +529,7 @@
 				08911A2A298798E700CAF6DA /* ChartCollectoinViewCell.swift in Sources */,
 				08911A362987999500CAF6DA /* ChartViewModel.swift in Sources */,
 				089119E32987952500CAF6DA /* NetworkDataFetcher.swift in Sources */,
+				08CAB4B52991569E0058EC2F /* ImageConstants.swift in Sources */,
 				089119F0298795BC00CAF6DA /* LoginViewPresenter.swift in Sources */,
 				089119EE2987959C00CAF6DA /* LoginViewInput.swift in Sources */,
 				089119D12987944C00CAF6DA /* ItemViewInset.swift in Sources */,

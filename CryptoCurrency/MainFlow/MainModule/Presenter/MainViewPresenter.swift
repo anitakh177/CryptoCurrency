@@ -32,7 +32,7 @@ final class MainViewPresenter: MainViewOutput {
     func loadData() {
         view?.loadSpinnerAnimation()
         let dispatchGroup = DispatchGroup()
-        let cryptoArray = ["btc", "eth", "tron", "luna", "polkadot", "dogecoin", "tether", "stellar", "cardano", "xrp"]
+        let cryptoArray = ["btc", "eth", "tron", "lunc", "polkadot", "dogecoin", "tether", "stellar", "cardano", "xrp"]
        
         cryptoArray.forEach { [weak self] coin in
             dispatchGroup.enter()

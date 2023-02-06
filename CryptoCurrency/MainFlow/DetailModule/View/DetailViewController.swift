@@ -49,7 +49,7 @@ private extension DetailViewController {
     }
     
     func configureNavigationBar() {
-        let leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName:"arrow.left"), style: .plain, target: self, action: #selector(closeDetailVC))
+        let leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: ImageConstants.arrowLeft), style: .plain, target: self, action: #selector(closeDetailVC))
         leftBarButtonItem.tintColor = Colors.purpleColor
         navigationItem.leftBarButtonItem = leftBarButtonItem
         

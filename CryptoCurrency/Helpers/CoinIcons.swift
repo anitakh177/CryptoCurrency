@@ -17,7 +17,7 @@ struct CoinIcons {
             return "eth"
         case "1c077d6e-99c7-491c-b24d-1d359011cd81":
             return "tron"
-        case "6beb71d4-1476-4a52-afc4-7a921de087f6":
+        case "86da9b7d-922b-4abb-8599-e75c6fa5a138":
             return "luna"
         case "da6a0575-ec95-4c47-855d-5fc6a3e22ada":
             return "polkadot"

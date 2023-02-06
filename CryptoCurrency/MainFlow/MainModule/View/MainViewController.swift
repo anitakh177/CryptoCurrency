@@ -69,11 +69,11 @@ private extension MainViewController {
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationController?.navigationBar.prefersLargeTitles = true
         
-        let leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName:"arrow.up.arrow.down"), style: .plain, target: self, action: #selector(openSortingAlertAction))
+        let leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: ImageConstants.upAndDownArrow), style: .plain, target: self, action: #selector(openSortingAlertAction))
         leftBarButtonItem.tintColor = Colors.purpleColor
         navigationItem.leftBarButtonItem = leftBarButtonItem
         
-        let rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "rectangle.portrait.and.arrow.right"), style: .plain, target: self, action: #selector(logout))
+        let rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: ImageConstants.portrait), style: .plain, target: self, action: #selector(logout))
         rightBarButtonItem.tintColor = Colors.purpleColor
         navigationItem.rightBarButtonItem = rightBarButtonItem
     
